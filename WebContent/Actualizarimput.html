@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>Actualizar Artículo</h3>
+	<form action="Actualizar.jsp" method="post">
+		Descripcion<br> <input type="text" name="descripcion" required="required"> <br> 
+		Precio<br> 
+		<input	type="number" name="precio" step="0.01" required="required"><br>
+		Código<br> 
+		<input	type="number" name="codigo"  required="required"><br>
+		<br>
+		<br> 
+			 <input type="reset" name="limpiar" value="Limpiar">
+			 <input type="submit" name="actualizar" value="Actualizar">
+		<br />
+		<br />		
+		<br /> Otras Acciones<br />		<br />		
+	</form>
+	<form action="dia2.jsp" method="post">	
+			 <input type="submit" name="registrar" value="Registrar" >			
+	</form><br />			
+	<form action="Borrarimput.html" method="post">	
+		<input type="submit" name="borrar" value="Borrar" >			
+	</form><br />		
+	<form action="consultarimput.html" method="post">
+		<input type="submit" name="consultar" value="Consultar" >	
+	</form>
+</body>
+</html>
